@@ -4,10 +4,10 @@ public class LinearEquation{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Nhap so a: ");
-        int a = scanner.nextInt();
+        double a = scanner.nextDouble();
 
         System.out.print("Nhap so b: ");
-        int b = scanner.nextInt();
+        double b = scanner.nextDouble();
 
         if(a == 0){
             if(b == 0){
