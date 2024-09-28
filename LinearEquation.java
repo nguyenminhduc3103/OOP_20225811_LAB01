@@ -21,5 +21,6 @@ public class LinearEquation{
             double x = -b / a;
             System.out.println("x = " + x);
         }
+        scanner.close();
     }
 }
